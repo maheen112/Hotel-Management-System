@@ -66,9 +66,11 @@ public class Dassbord extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == rec) {
-
+            new Reception();
+            setVisible(false);
         }else {
-
+            new login2();
+            setVisible(false);
         }
 
     }

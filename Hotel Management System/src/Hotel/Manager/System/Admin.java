@@ -24,7 +24,7 @@ public class Admin extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     if (e.getSource() == b1){
-
+                        new AddEmployee();
                     }
                 }catch (Exception ex){
                     ex.printStackTrace();
@@ -45,7 +45,7 @@ public class Admin extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     if (e.getSource() == b2){
-
+                        new AddRoom();
                     }
                 }catch (Exception ex){
                     ex.printStackTrace();
@@ -66,7 +66,7 @@ public class Admin extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     if (e.getSource() == b3){
-
+                        new AddDriver();
                     }
                 }catch (Exception ex){
                     ex.printStackTrace();
