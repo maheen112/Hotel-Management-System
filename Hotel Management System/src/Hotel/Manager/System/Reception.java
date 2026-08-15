@@ -56,7 +56,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new NewCustomer();
                 }catch (Exception ex){
                     ex.printStackTrace();
                 }
@@ -112,7 +112,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new Employee();
                 }catch (Exception ex){
                     ex.printStackTrace();
                 }
@@ -130,7 +130,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new CustomerInfo();
                 }catch (Exception ex){
                     ex.printStackTrace();
                 }
@@ -148,7 +148,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new ManagerInfo();
                 }catch (Exception ex){
                     ex.printStackTrace();
                 }
@@ -220,7 +220,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new Pickup();
                 }catch (Exception ex){
                     ex.printStackTrace();
                 }
@@ -238,7 +238,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new SearchRoom();
                 }catch (Exception ex){
                     ex.printStackTrace();
                 }
